@@ -32,7 +32,9 @@ export const Splash: React.FC<SplashProps> = ({ onNavigate }) => {
       <p className="brand-sub">Rút một lá, làm theo lệnh, cụng ly. Ai ngán thì… uống.</p>
       <button className="btn btn-start" onClick={() => onNavigate('mode')}>Bắt đầu chơi</button>
       <button className="btn btn-ghost" onClick={() => onNavigate('how')}>Luật chơi là gì?</button>
-      <div className="footnote">🍻 Chơi vui là chính — uống có chừng mực, đừng ép ai quá sức nhé.</div>
+      <div className="footnote">
+        <div>🍻 Chơi vui là chính — uống có chừng mực, đừng ép ai quá sức nhé.</div>
+      </div>
     </div>
   );
 };
