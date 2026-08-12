@@ -702,9 +702,7 @@ body::before {
   display: flex;
   flex-direction: column;
   gap: 10px;
-  max-height: 380px;
   overflow-y: auto;
-  margin-top: 14px;
   padding-right: 6px;
 }
 
